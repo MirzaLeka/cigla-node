@@ -11,7 +11,7 @@ app.listen(3000, () => {
 })
 
 app.get('/', (req, res) => {
-    res.send('hello!')
+    res.send('path?URL=<LINK>')
 })
 
 app.get('/download', (req, res) => {
